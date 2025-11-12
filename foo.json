@@ -1,0 +1,45 @@
+{
+		displayName: 'Foo',
+		name: 'foo',
+		icon: 'file:foo.svg',
+		group: ['transform'],
+		version: 1,
+		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
+		description: 'Use the Foo API',
+		defaults: {
+			name: 'Foo',
+		},
+		usableAsTool: true,
+		inputs: ['main'],
+		outputs: ['main'],
+		credentials: [
+			{
+				name: 'oktaApi',
+				required: true,
+			},
+		],
+		requestDefaults: {
+			returnFullResponse: true,
+			baseURL: '={{$credentials.url.replace(new RegExp("/$"), "")}}',
+			headers: {},
+		},
+		properties: [
+			{
+				displayName: 'Resource',
+				name: 'resource',
+				type: 'options',
+				noDataExpression: true,
+				options: [
+					{
+						name: 'User',
+						value: 'user',
+					},
+				],
+				default: 'user',
+			},
+
+			// USER
+			...userOperations,
+			...userFields,
+		],
+	}
