@@ -2,5 +2,6 @@
   "name": "Acme Corp nodes",
   "maintainer": "Elias Meire <elias@meire.dev>",
   "version": "0.1.0",
-  "nodes": [{ "url": "https://github.com/elsmr/n8n-nodes/tree/foo.json" }, { "url": "https://github.com/elsmr/n8n-nodes/tree/bar.json" }]
+  "nodes": [{ "url": "https://github.com/elsmr/n8n-nodes/tree/foo.node.json" }, { "url": "https://github.com/elsmr/n8n-nodes/tree/bar.node.json" }],
+  "credentials": [{ "url": "https://github.com/elsmr/n8n-nodes/tree/foo.credentials.json" }, { "url": "https://github.com/elsmr/n8n-nodes/tree/bar.credentials.json" }],
 }
