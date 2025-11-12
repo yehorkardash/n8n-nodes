@@ -3,11 +3,11 @@
   "maintainer": "Elias Meire <elias@meire.dev>",
   "version": "0.1.0",
   "nodes": [
-    { "url": "https://raw.githubusercontent.com/elsmr/n8n-nodes/refs/heads/main/foo.node.json" },
-    { "url": "https://raw.githubusercontent.com/elsmr/n8n-nodes/refs/heads/main/bar.node.json" }
+    { "url": "https://raw.githubusercontent.com/yehorkardash/n8n-nodes/refs/heads/main/foo.node.json" },
+    { "url": "https://raw.githubusercontent.com/yehorkardash/n8n-nodes/refs/heads/main/bar.node.json" }
   ],
   "credentials": [
-    { "url": "https://raw.githubusercontent.com/elsmr/n8n-nodes/refs/heads/main/foo.credentials.json" },
-    { "url": "https://raw.githubusercontent.com/elsmr/n8n-nodes/refs/heads/main/bar.credentials.json" }
+    { "url": "https://raw.githubusercontent.com/yehorkardash/n8n-nodes/refs/heads/main/foo.credentials.json" },
+    { "url": "https://raw.githubusercontent.com/yehorkardash/n8n-nodes/refs/heads/main/bar.credentials.json" }
   ]
 }
