@@ -1,8 +1,9 @@
 {
   "$schema": "./node.schema.json",
-  "displayName": "Bar",
+  "displayName": "Bar1",
   "name": "bar",
   "icon": "url:https://raw.githubusercontent.com/yehorkardash/n8n-nodes/refs/heads/main/icon.svg",
+  "iconUrl": "https://raw.githubusercontent.com/yehorkardash/n8n-nodes/refs/heads/main/icon.svg",
   "group": ["transform"],
   "version": 1,
   "subtitle": "={{$parameter[\"operation\"] + \": \" + $parameter[\"resource\"]}}",
